@@ -653,9 +653,18 @@ li {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-btn:hover .modal-close-btn:focus {
+.modal-close-btn:hover {
+  color: #fff;
   background-color: #404bbf;
 }
+.modal-close-btn:focus {
+  color: #fff;
+  background-color: #404bbf;
+}
+/* .btn-icon:hover .btn-icon:focus {
+  /* color: #fff; */
+  background-color: #404bbf;
+} */
 
 .btn-icon {
   /* fill: currentColor; */
