@@ -400,7 +400,7 @@ ol[class] {
 .footer-social-item {
   width: 40px;
   height: 40px;
-  color: #f4f4fd;
+  /* color: #f4f4fd; */
 }
 li {
   list-style-type: none;
@@ -474,9 +474,9 @@ li {
 .subscribe-form-icon {
   fill: #ffffff;
 }
-/* .footer-social-icon {
+.footer-social-icon {
   fill: #f4f4fd;
-} */
+}
 .footer-social-item :hover,
 .footer-social-item :focus {
   background-color: #31d0aa;
