@@ -577,7 +577,7 @@
             </li>
           </ul>
         </div>
-         <div class="footer-subscribe-box">
+        <div class="footer-subscribe-box">
           <p class="footer-subscribe-text">Subscribe</p>
           <form class="footer-form">
             <label class="footer-label">
@@ -598,7 +598,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button
           class="modal-close-btn"
@@ -659,25 +659,52 @@
           </div>
 
           <div class="form-wrapper">
-            <labe class="form-label" for="user_message" >Comment</labe>
-            <textarea class="form-message" name="user_message" id="user_message" rows="7" placeholder="Text input"></textarea>
+            <labe class="form-label" for="user_message">Comment</labe>
+            <textarea
+              class="form-message"
+              name="user_message"
+              id="user_message"
+              rows="7"
+              placeholder="Text input"
+            ></textarea>
           </div>
-
+          <!-- <div class="form-agreement-box">
+            <input
+              class="checkbox visually-hidden"
+              type="checkbox"
+              name="usr_agreemend"
+              value="false"
+              checked
+            />
+            <label class="form-agreement">
+              <span class="form-agreement-checkbox">
+                <svg class="form-agreement-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="form-agreement-link" href=""> Privacy Policy</a>
+            </label>
+          </div> -->
 
           <label class="form-agreement">
-            <input class="checkbox visually-hidden" type="checkbox" name="usr_agreemend" value="false" checked />
+            <input
+              class="checkbox visually-hidden"
+              type="checkbox"
+              name="usr_agreemend"
+              value="false"
+              checked
+            />
             <span class="form-agreement-checkbox">
               <svg class="form-agreement-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-vector"></use>
+                <use href="./images/icons.svg#icon-ector"></use>
               </svg>
             </span>
             I accept the terms and conditions of the
-             <a class="form-agreement-link" href=""> Privacy Policy</a>
+            <a class="form-agreement-link" href=""> Privacy Policy</a>
           </label>
-           
 
           <button class="form-btn" type="submit">Send</button>
-          </div>
         </form>
       </div>
     </div>
