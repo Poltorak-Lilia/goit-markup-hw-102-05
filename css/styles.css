@@ -821,8 +821,8 @@ li {
 }
 
 .checkbox:checked + .form-agreement-checkbox {
-  background-color: #404bbf;
-  fill: #f4f4fd;
+  background-color: var(--accent-text-color);
+  fill: var(--footer-text-color);
   border-color: transparent;
 }
 
@@ -838,6 +838,7 @@ li {
 .checkbox:checked + .form-agreement-checkbox > .form-agreement-icon {
   opacity: 1;
   transform: scale(1);
+  border: none;
 }
 
 .form-agreement-icon {
